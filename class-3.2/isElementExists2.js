@@ -7,19 +7,23 @@
 //output false
 //input arr1["a", "b", "c"], arr2[1, 2, 3, "c"]
 //output true
-//time complexity 0(n^2) or 0(n*m)
-//space complexity 0(1)
+//time complexity 0(n+m)
+//space complexity 0(n)
 
 function isElementExists(arr1, arr2) {
   //flag variable
-  let exists = false;
+  const frequencyCounter = {};
   for (let element of arr1) {
-    if (arr2.includes(element)) {
-      exists = true;
-      break;
+    frequencyCounter[element] = true;
+  }
+  for (let element of arr2) {
+    console.log(element);
+    if (element in frequencyCounter) {
+      return true;
     }
   }
-  console.log(exists);
-  return exists;
+
+  console.log(frequencyCounter);
+  return frequencyCounter;
 }
-console.log(isElementExists(["a", "b", "c"], [1, 2, 3, "c"]));
+console.log(isElementExists(["a", "b", "c"], [1, 2, 3, "a"]));
