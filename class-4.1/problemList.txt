@@ -1,0 +1,18 @@
+//fizz buzz
+//adding sum from an array
+//finding out max or min sum
+//string reversal
+//int reversal
+//max character and character count
+//reverse array
+//palindrome
+//compare two array
+//anagram
+//vowels
+//array chunking
+//caser cipher
+//capitalization
+//step pattern
+//two sum
+//spiral
+//ranson notes
