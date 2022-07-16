@@ -1,0 +1,13 @@
+//max character and character count
+//reverse array
+//palindrome
+//compare two array
+//anagram
+//vowels
+//array chunking
+//caser cipher
+//capitalization
+//step pattern
+//two sum
+//spiral
+//ranson notes
